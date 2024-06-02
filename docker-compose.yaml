@@ -212,8 +212,6 @@ services:
       interval: 10s
       timeout: 10s
 networks:
-  nodejs-exa:
-    driver: bridge
   default:
     name: elastic
     external: false
